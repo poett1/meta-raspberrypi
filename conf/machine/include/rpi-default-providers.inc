@@ -13,6 +13,9 @@ PREFERRED_PROVIDER_libav ?= "rpidistro-ffmpeg"
 PREFERRED_PROVIDER_libpostproc ?= "rpidistro-ffmpeg"
 PREFERRED_PROVIDER_jpeg ?= "jpeg"
 
+PACKAGE_EXCLUDE:append = " libcamera"
+PREFERRED_PROVIDER_libcamera ?= "rpi-libcamera"
+
 PREFERRED_PROVIDER_virtual/libomxil ?= "userland"
 VIRTUAL-RUNTIME_libomxil = "userland"
 
