@@ -13,6 +13,8 @@ SRC_URI = "git://github.com/raspberrypi/libcamera.git;protocol=https;branch=main
 PV = "0.5.2+rpt20250903+git${SRCPV}"
 SRCREV = "bfd68f786964636b09f8122e6c09c230367390e7"
 
+S = "${WORKDIR}/git"
+
 PE = "1"
 
 DEPENDS = "\
