@@ -23,7 +23,8 @@ PACKAGECONFIG[drm] = "-Denable_drm=enabled, -Denable_drm=disabled, libdrm"
 PACKAGECONFIG[egl] = "-Denable_egl=enabled, -Denable_egl=disabled, virtual/egl"
 PACKAGECONFIG[qt] = "-Denable_qt=enabled, -Denable_qt=disabled, qtbase"
 PACKAGECONFIG[opencv] = "-Denable_opencv=enabled, -Denable_opencv=disabled, opencv"
-PACKAGECONFIG[tflite] = "-Denable_tflite=enabled, -Denable_tflite=disabled, tensorflow-lite"
+# PACKAGECONFIG[tflite] = "-Denable_tflite=enabled, -Denable_tflite=disabled, tensorflow-lite"
+PACKAGECONFIG[tflite] = "-Denable_tflite=enabled, -Denable_tflite=disabled, libtensorflow-lite flatbuffers"
 
 inherit meson pkgconfig
 
